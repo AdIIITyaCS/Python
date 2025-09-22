@@ -1,0 +1,18 @@
+"""print("ENTER 1st NO.")
+n1 = int(input())
+print("ENTER 2nd NO.")
+n2 = int(input())
+print("ADDITION::", n1+n2)
+print("SUBTRACTION::", n1-n2)
+print("MULTIPLICATION::", n1*n2)
+print("POWER::", n1**n2)
+print("DIVISION WITH FLOAT::", n1/n2)
+print("DIVISION WITH INTEGER::", n1//n2)"""
+print("ENTER 1ST NO.")
+n1 = input()
+print("ENTER 2ND NO.")
+n2 = input()
+print("ENTER OPERATOR")
+op = input()
+exp = n1 + op + n2
+print(eval(exp))
